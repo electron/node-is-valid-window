@@ -1,7 +1,7 @@
 {
   "main": "./lib/is-valid-window.js",
-  "name": "runas",
-  "version": "0.1.0",
+  "name": "is-valid-window",
+  "version": "0.0.2",
   "licenses": "Public Domain",
   "dependencies": {
     "nan": "2.x"

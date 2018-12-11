@@ -27,7 +27,10 @@
         }],
         ['OS=="mac"', {
           'sources': [
-            'src/impl_darwin.cc',
+            'src/impl_darwin.mm',
+          ],
+          'libraries': [
+            '$(SDKROOT)/System/Library/Frameworks/AppKit.framework',
           ],
         }],
         ['OS not in ["mac", "win"]', {
