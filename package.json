@@ -5,5 +5,9 @@
   "licenses": "Public Domain",
   "dependencies": {
     "nan": "2.x"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/electron/node-is-valid-window.git"
+  },
 }
